@@ -1,0 +1,13 @@
+.like-button {
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #1a1a1a;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.like-button.liked {
+  background-color: #1a1a1a ;
+}
